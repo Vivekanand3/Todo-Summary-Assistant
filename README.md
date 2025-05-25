@@ -44,22 +44,35 @@ A full-stack Todo application that allows users to manage tasks and summarizes t
 todo-summary-assistant/
 │
 ├── server.js # Entry point of backend
+
 ├── .env # Environment variables
+
 ├── package.json # Node project info
-├── /server/
-│ └── routes/
-│ └── todos.routes.js # API routes
+
+
+├── /server/  
+
+
+│ └── routes/ 
+
+│ └── todos.routes.js # API routes 
+
 │
-├── /client/ # React frontend (if present)
+├── /client/ # React frontend (if present) 
+
 │ └── src/
+
 │ └── components/
+
 │ └── App.js
+
 │
 └── README.md
 
+
+
+
 yaml
-Copy
-Edit
 
 ---
 
@@ -89,6 +102,7 @@ Install backend dependencies
 
 bash
 
+
 npm install
 Start backend server
 
@@ -98,6 +112,8 @@ npm run server
 (Optional) If you have a client/ frontend, open new terminal:
 
 bash
+
+
 
 cd client
 npm install
@@ -119,10 +135,13 @@ License
 Submitted solely for evaluation by Leucine.io. All rights reserved by the author.
 
 yaml
-Copy
-Edit
+
 
 ---
+
+
+
+
 
 ## ✅ How to Push Your Project to GitHub
 
@@ -135,6 +154,9 @@ Edit
   - **Do not add README**
 
 ---
+
+
+
 
 ### 🖥️ 2. Push Local Code to GitHub
 
